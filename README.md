@@ -1,12 +1,12 @@
 **eBay Men's Perfume Data Analysis**
 
-Project Overview
+**Project Overview**
 
 This project explores an eBay men's perfume listings dataset using Python, Pandas, NumPy, and Matplotlib.
 
 The objective is to understand the dataset, examine perfume listing prices, compare brands, identify data quality issues, and visualize key patterns through charts.
 
-Project Objectives
+**Project Objectives**
 
 Explore the dataset's structure and data types.
 
@@ -22,7 +22,7 @@ Calculate brand-wise listing counts and total listed prices.
 
 Create charts to communicate findings clearly.
 
-Dataset Description
+**Dataset Description**
 
 Dataset: eBay Men's Perfume Listings
 
@@ -30,7 +30,7 @@ Records: 1,000 rows
 
 Columns: 10
 
-The dataset contains the following columns:
+**The dataset contains the following columns:**
 
 Column
 
@@ -76,7 +76,7 @@ itemLocation
 
 Listing location
 
-Tools and Technologies
+**Tools and Technologies**
 
 Python
 
@@ -88,15 +88,15 @@ Pandas
 
 Matplotlib
 
-Project Workflow
+**Project Workflow**
 
-1. Data Loading
+**1. Data Loading**
 
 Imported the CSV dataset using pandas.read_csv().
 
 Loaded the dataset into a Pandas DataFrame.
 
-2. Data Exploration
+**2. Data Exploration**
 
 Used the following operations to understand the dataset:
 
@@ -116,7 +116,7 @@ nunique()
 
 value_counts()
 
-3. Data Quality Checks
+**3. Data Quality Checks**
 
 Checked missing values in each column using isnull().sum().
 
@@ -128,7 +128,7 @@ Identified repeated product titles and examined matching records.
 
 Note: These checks identify data quality issues. Missing values and repeated titles were not systematically cleaned or removed in the current notebook.
 
-4. Price Analysis
+**4. Price Analysis**
 
 Calculated mean, median, minimum, maximum, and other descriptive statistics.
 
@@ -138,7 +138,7 @@ Identified the lowest-priced listings.
 
 Compared average prices across brands.
 
-5. Brand-Wise Analysis
+**5. Brand-Wise Analysis**
 
 Used groupby() and agg() to calculate:
 
@@ -154,7 +154,7 @@ Total listed price
 
 Also sorted and filtered brands to compare their listing activity and price patterns.
 
-6. Data Visualization
+**6. Data Visualization**
 
 Created the following visualizations using Matplotlib:
 
@@ -162,7 +162,7 @@ Bar Chart: Top 10 brands by listing count.
 
 Pie Chart: Distribution of listings among the top 5 brands.
 
-Key Findings
+**Key Findings**
 
 Based on the current notebook outputs:
 
@@ -184,7 +184,7 @@ The dataset contains 177 missing cells.
 
 No exact duplicate rows were found, although 34 repeated titles were identified by the title-based duplicate check.
 
-Important Limitations
+**Important Limitations**
 
 The dataset contains missing values that require further investigation.
 
